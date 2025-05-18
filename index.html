@@ -1,7 +1,13 @@
-<script>
-  // This will reload the page
-  location.reload();
-
-  // This will open a new blank window (might get blocked)
-  window.open("https://example.com", "_blank");
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reload and Popup Demo</title>
+  <script>
+    location.reload(); // Will cause infinite reload unless guarded
+    window.open("https://example.com", "_blank");
+  </script>
+</head>
+<body>
+  <h1>Test Page</h1>
+</body>
+</html>
